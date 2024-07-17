@@ -30,12 +30,12 @@ function loadSong(songUrl) {
 
 function playSong() {
   audio.play();
-  document.getElementById("play").src = "Spotify_music_player/playbar_img/pause.png";
+  document.getElementById("play").src = "https://devendramane.github.io/Spotify_music_player/playbar_img/pause.png";
 }
 
 function pauseSong() {
   audio.pause();
-  document.getElementById("play").src = "Spotify_music_player/playbar_img/play.png";
+  document.getElementById("play").src = "https://devendramane.github.io/Spotify_music_player/playbar_img/play.png";
 }
 
 // function updateSeekbar() {
