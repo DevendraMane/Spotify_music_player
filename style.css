@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+  background-color: black;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  overflow: hidden;
+}
+
+.svg {
+  filter: invert(100%);
+}
+.b1svg {
+  width: 25px;
+  height: 25px;
+}
+
+.leftpart .box1 {
+  background-color: #121212;
+    /* width: 20rem; */
+    height: 19%;
+    border-radius: 6px;
+    padding: 15px 0px 0px 0px;
+    overflow: auto;
+    
+  
+}
+.leftpart .box1 div{
+  margin-left:  25px;/* top */ /* right */ /* bottom */ /* left */;
+  line-height: 45px;
+}
+
+.box1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.box1 ul li a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  margin: 0px 0px 0px 15px;
+  top: -5px;
+}
+
+.box2{
+  background-color: #121212;
+  /* width: 20rem; */
+  height: 36rem;
+  border-radius: 6px;
+}
+
+.leftpart{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 90vh;
+  width: 25%;
+}
+
+.mainbox{
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 18rem;
+  margin-left: 32px;
+}
+
+.head span{
+  position: relative;
+  top: -4px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.head button {
+  appearance: none;
+    border: none;
+    background: none; 
+    color: white;
+}
+
+.head .btn2{
+  filter: invert(100%);
+}
+
+.small_scroll_box{
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  
+}
+
+.small_scroll_box .sec1 li{
+  list-style: none;
+  line-height: 40px;
+}
+.small_scroll_box .sec1 ul{
+  margin: 5px 0px 0px -24px;
+}
+
+.small_scroll_box .sec1 .l2{
+  position: relative;
+  font-size: 14px;
+  top:-12px;
+}
+.small_scroll_box .sec1 ul .b{
+  position: relative;
+  top: -5px;
+}
+.small_scroll_box .sec1 ul .b button{
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+
+  cursor: pointer;
+  font-weight: 700;
+}
+.small_scroll_box .sec1 ul .b button:hover{
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 9px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.sec1 {
+  background-color: #242424;
+  height: 135px;
+  width: 21rem;
+  margin: auto;
+  border-radius: 8px;
+}
+.sec2 {
+  background-color: #242424;
+  height: 135px;
+  width: 21rem;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.small_links{
+  height: 57.6px;
+  width: 300px;
+  margin: 56px 23px 23px 23px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 600px;
+}
+
+.small_links a{
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-size: 11px;
+  
+}
+
+.last_btn svg{
+  filter: invert(100%);
+  display: inline-flex;
+  flex-direction: row;
+  height: 15px;
+}
+.last_btn button{
+  border: 0.1px solid white;
+  background-color: #121212;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-flex;
+  gap: 5px;
+  margin: 0px 2px 2px 23px;
+}
+.last_btn button:hover{
+  border: 1px solid white;
+  background-color: #121212;
+  color: #fff;
+  padding: 9px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-flex;
+  gap: 5px;
+  margin: 0px 2px 2px 23px;
+}
+
+/* ↑↑↑ LEFT PART ↑↑↑ */
+
+.rightpart{
+ background-color: #242424;
+ width: 80%;
+    height: 89.5vh;
+    border-radius: 6px;
+    overflow-x: hidden;
+}
+
+.rightpart nav{
+  background-color: #121212;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding: 16px 18.3px;
+  align-items: center;
+  overflow: hidden;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.transparent {
+  background-color: transparent;
+}
+
+
+.rightpart nav .Rbtn button{
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+}
+.rightpart nav .Rbtn{
+  display: flex;
+  gap: 8px
+}
+#l_btn{
+  padding: 8px 10px 5px 8px;
+  border-radius: 20px;
+}
+#r_btn{
+  padding: 8px 10px 5px 8px;
+  border-radius: 20px;
+}
+
+.rightpart nav .Rbtn img{
+  filter: invert(100%);
+  width: 15px;
+  height: 15px;
+}
+
+.login_btn{
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 25px;
+  color: #000;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login_btn:hover{
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 25px;
+  color: #000;
+  padding: 15px 31px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.signup_btn{
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  color: rgb(167, 167, 167);
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.signup_btn:hover{
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 31px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Rhead{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 25px;
+}
+
+.Rhead a{
+  text-decoration: none;
+  color: rgb(167, 167, 167);;
+}
+.Rhead a:hover{
+  text-decoration: underline;
+  color: rgb(167, 167, 167);
+  
+}
+.Rhead h1:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.artist_card{
+  width: 206px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+}
+.artist_card:hover{
+  background-color: hsla(0, 2%, 60%, 0.107);
+  width: 206px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;  
+  border-radius: 6px;
+}
+
+
+.img_circle{
+  border-radius: 20px;
+}
+.artist_img img{
+ 
+  border-radius: 50%; 
+  object-fit: cover;  
+  height: 13rem;
+  width: 13rem;
+}
+
+.artist_name{
+  display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 5px;
+ 
+}
+.artist_cards{
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+
+}
+
+.scrolling_box{
+  flex: 1;
+  padding: 20px 0;
+}
+
+/* this is for styling scroll bar */
+
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+  height: 8px; /* Adjust the height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Adjust the background color of the scrollbar track */
+  border-radius: 10px; /* Make the track rounded */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2); /* Adjust the thumb color and transparency */
+  border-radius: 10px; /* Make the thumb rounded */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3); /* Adjust the thumb color on hover */
+}
+
+/* Remove scrollbar arrows */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Optional: For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) #000;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: none;
+}
+
+
+.playbar{
+  background-color: #121212;
+    width: 99%;
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 6px; */
+    margin: 8px 2px 2px 2px ;
+}
+
+.playbar .backward{
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.playbar #play{
+  width: 35px;
+  height: 35px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+.playbar #play:hover{
+  width: 37px;
+  height: 37px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.playbar .forward{
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.songs{
+  background-color: #242424;
+  margin: auto;
+  width: 90%;
+  height: 86%;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.songs .songs_list ul{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 20px 20px;
+  list-style-type: decimal;
+}
+
+.songs_list ul li{
+display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+    
+}
+.songs_list ul li img{
+  filter: invert(100%);
+  width: 20px ;
+  height: 20px;
+}
+.songs .songs_list ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.playbar .playbar_btn{
+  display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+#total_seekbar #only_seekbar{
+  border: 1px solid #fff;
+    width: 45%;
+    height: 5px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+
+}
+
+#total_seekbar #seek_circle{
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+#total_seekbar #only_seekbar #seek_circle:hover{
+  cursor: pointer;
+  background-color: #1DB954;
+}
+
+.current-song {
+  color: #1DB954; 
+}
+#total_seekbar{
+  width: 80%;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
