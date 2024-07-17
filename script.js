@@ -7,7 +7,7 @@ let songs = [];
 let songItems = []; //used for styling the songname in the UI
 
 async function GetSongs() {
-  let a = await fetch("http://127.0.0.1:3000/songs/");
+  let a = await fetch("Spotify_music_player/songs/");
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
@@ -30,12 +30,12 @@ function loadSong(songUrl) {
 
 function playSong() {
   audio.play();
-  document.getElementById("play").src = "/playbar_img/pause.png";
+  document.getElementById("play").src = "Spotify_music_player/playbar_img/pause.png";
 }
 
 function pauseSong() {
   audio.pause();
-  document.getElementById("play").src = "/playbar_img/play.png";
+  document.getElementById("play").src = "Spotify_music_player/playbar_img/play.png";
 }
 
 // function updateSeekbar() {
