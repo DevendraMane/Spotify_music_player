@@ -7,7 +7,7 @@ let songs = [];
 let songItems = []; //used for styling the songname in the UI
 
 async function GetSongs() {
-  let a = await fetch("Spotify_music_player/songs/");
+  let a = await fetch("https://devendramane.github.io/Spotify_music_player/songs/");
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
